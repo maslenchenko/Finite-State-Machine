@@ -11,4 +11,3 @@ The work consists of three modules: prime.py, main.py and driver.py.
 2. Driver starts the program.
 
 3. Main.py contains the FSM class.
-4. 
