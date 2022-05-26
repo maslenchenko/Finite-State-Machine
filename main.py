@@ -140,7 +140,12 @@ class FSM:
                     self.hours += 3
                     print(f"{self.hours} o'clock")
                     print("[waking up] oh no, have i fallen asleep?")
-                    self.current_state = self.q5
+                    if probability <= 0.3:
+                        self.current_state = self.q5
+                    elif 0.3 < probability <= 0.6:
+                        self.current_state = self.q3
+                    else:
+                        self.current_state = self.q4
 
     @prime
     def _eat(self):
