@@ -1,4 +1,4 @@
-Finite-State-Machine
+# Finite-State-Machine
 
 Finite-State machine implementation written in Python3.
 
